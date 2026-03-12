@@ -46,7 +46,6 @@ header{
     display: flex;  
     justify-content: center;
     align-items: center;
-    gap:76px;
 }
 .header_webstudio_icon{
     padding-top: 5px;   
@@ -663,8 +662,11 @@ input, textarea{
 .menu{
     display: none;
 }
+.button_burger{
+    display: none;
+}
 .burger_container{
-    
+    display: none;
 }
 
 @media screen and (max-width: 1100px) {
@@ -770,28 +772,28 @@ input, textarea{
     }
     
 
-.nav_top_line{
+    .nav_top_line{
     display: none;
 
-}
-}
-.header_top_line{
+    }
+    }
+    .header_top_line{
     display: flex;
     flex-direction: column;
     gap: 16px;
 
-}
-.header_wrapper{
+    }
+    .header_wrapper{
     display: flex;
     justify-content: space-between;
     
 
     padding: 0 16px 0 16px;
-}
-.button_burger{
+    }
+    .button_burger{
     display: block;
     background-color: transparent;
     border: none;
     width: 24px;
     height: 24px;
-}
+    }
